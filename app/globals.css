@@ -2,26 +2,51 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@layer base {
+  .dark {
+    --background: 225 9% 9%; /* Cor de fundo permanece a mesma */
+    --foreground: 210 40% 98%; /* Mantido como branco para contraste */
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --card: 228 9% 11%; /* Cor do card como cinza escuro */
+    --card-foreground: 210 40% 98%; /* Cor do texto do card como branco */
+
+    --popover: 228 9% 11%; /* Cinza escuro */
+    --popover-foreground: 210 40% 98%; /* Branco para o texto */
+
+    --primary: 210 100% 70%; /* Azul claro mais escuro */
+    --primary-foreground: 0 0% 100%; /* Branco para o texto */
+
+    --secondary: 228 9% 11%; /* Cinza escuro */
+    --secondary-foreground: 210 40% 98%; /* Branco para o texto */
+
+    --muted: 228 9% 11%; /* Cinza escuro */
+    --muted-foreground: 215 20.2% 65.1%; /* Tom mais claro de cinza para o texto */
+
+    --accent: 228 9% 11%; /* Cinza escuro */
+    --accent-foreground: 210 40% 98%; /* Branco para o texto */
+
+    --destructive: 210 100% 60%; /* Azul mais escuro, você pode ajustar se precisar de um tom específico */
+    --destructive-foreground: 210 40% 98%; /* Branco para o texto */
+
+    --border: 228 9% 11%; /* Cinza escuro */
+    --input: 228 9% 11%; /* Cinza escuro */
+    --ring: 210 100% 60%; /* Azul mais escuro */
+
+    --radius: 0.5rem;
+
   }
-}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+
+  * {
+    @apply border-border antialiased;
+  }
+
+  html {
+    @apply h-full;
+  }
+
+  body {
+    @apply h-full bg-background text-foreground;
   }
 }
