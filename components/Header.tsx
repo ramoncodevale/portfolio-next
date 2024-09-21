@@ -1,17 +1,25 @@
+import { Card, CardContent } from "./ui/card";
 import { Button } from "./ui/button";
-import { Sheet, SheetTrigger } from "./ui/sheet";
+import { MenuIcon } from "lucide-react";
+import { Sheet, SheetTitle, SheetTrigger } from "./ui/sheet";
+import SidebarSheet from "./sidebar-sheet";
 
 const Header = () => {
-    return (  
-        <Sheet>
-            <SheetTrigger asChild>
-                <div className="flex items-center justify-between pt-5">
-             <h1>Olá</h1>
-             <Button>Ramon</Button>
-                </div>
-             </SheetTrigger>
-        </Sheet>
+    return (
+        <Card className="w-full">
+            <CardContent className="flex flex-row items-center justify-between p-5">
+                <Sheet>
+                <SheetTitle className="text-xl text-primary font-bold">Ramon Valentim</SheetTitle>
+                    <SheetTrigger asChild>
+                        <Button size="icon" variant="outline">
+                            <MenuIcon />
+                        </Button>
+                    </SheetTrigger>
+                    <SidebarSheet />
+                </Sheet>
+            </CardContent>
+        </Card>
     );
-}
- 
+};
+
 export default Header;
