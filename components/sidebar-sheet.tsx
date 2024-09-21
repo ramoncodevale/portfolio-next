@@ -26,13 +26,15 @@ const SidebarSheet = () => {
                     <Link className="text-lg border-b border-text-primary pb-1" href="/contatos" passHref>
                         Contatos
                     </Link>
+                    <div className="border border-b" />
+
+                 
                 </div>
             </div>
 
             <Link href="/CV-RAMON-VALENTIM-DA-SILVA-FRONT-END.pdf" target="_blank" rel="noopener noreferrer">
                 <Button className="w-full rounded-lg font-bold text-sm mt-7 p-5">
-                     Visualizar CV
-                     
+                     Visualizar CV    
                 </Button>
             </Link>
 
