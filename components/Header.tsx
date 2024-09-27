@@ -6,7 +6,7 @@ import SidebarSheet from "./sidebar-sheet";
 
 const Header = () => {
     return (
-        <Card className="w-full">
+        <Card className="w-full lg:hidden">
             <CardContent className="flex flex-row items-center justify-between p-5">
                 <Sheet>
                 <SheetTitle className="text-xl text-primary font-bold">Ramon Valentim</SheetTitle>
