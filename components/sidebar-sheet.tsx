@@ -1,5 +1,9 @@
-import { SheetContent } from "./ui/sheet";
+import { SheetContent } from './ui/sheet';
 import Link from 'next/link';
+import { Toggle } from './ui/toggle';
+import { MoonIcon } from '@radix-ui/react-icons';
+import { Sun } from 'lucide-react';
+import { Separator } from './ui/separator';
 
 const SidebarSheet = () => {
     return (
@@ -22,7 +26,15 @@ const SidebarSheet = () => {
                         Contatos
                     </Link>
 
-                    <div className="border border-b" />
+                    <div className="mt-5">
+                        <Toggle className="bg-primary  flex items-center justify-center" variant="outline" aria-label="Toggle theme">
+                            <div className="flex items-center">
+                                <Sun size={20} />
+                                <Separator className='mx-2 h-8 bg-secondary-foreground' orientation="vertical" />
+                                <MoonIcon size={20} />
+                            </div>
+                        </Toggle>
+                    </div>
                 </div>
             </div>
         </SheetContent>
