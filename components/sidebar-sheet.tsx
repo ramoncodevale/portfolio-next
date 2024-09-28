@@ -5,7 +5,11 @@ import { MoonIcon } from '@radix-ui/react-icons';
 import { Sun } from 'lucide-react';
 import { Separator } from './ui/separator';
 
-const SidebarSheet = () => {
+interface SidebarSheetProps {
+    size: number
+}
+
+const SidebarSheet = ({ size }: SidebarSheetProps) => {
     return (
         <SheetContent className="w-[300px] h-auto p-4">
             <div className="flex flex-col items-center space-y-2">
@@ -27,13 +31,14 @@ const SidebarSheet = () => {
                     </Link>
 
                     <div className="mt-5">
-                        <Toggle className="bg-primary  flex items-center justify-center" variant="outline" aria-label="Toggle theme">
-                            <div className="flex items-center">
+                        <Toggle className="bg-primary h-10 w-32 flex items-center justify-center rounded-lg" variant="outline" aria-label="Toggle theme">
+                            <div className="flex items-center justify-around w-full">
                                 <Sun size={20} />
                                 <Separator className='mx-2 h-8 bg-secondary-foreground' orientation="vertical" />
-                                <MoonIcon size={20} />
+                                <MoonIcon  />
                             </div>
                         </Toggle>
+
                     </div>
                 </div>
             </div>
