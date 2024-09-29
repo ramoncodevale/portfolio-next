@@ -9,7 +9,7 @@ const Header = () => {
         <Card className="w-full lg:hidden">
             <CardContent className="flex flex-row items-center justify-between p-5">
                 <Sheet>
-                <SheetTitle className="text-xl text-primary font-bold">Ramon Valentim</SheetTitle>
+                <SheetTitle className="text-base text-primary font-bold">Ramon Valentim</SheetTitle>
                     <SheetTrigger asChild>
                         <Button size="icon" variant="outline">
                             <MenuIcon />

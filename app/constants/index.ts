@@ -31,7 +31,7 @@ export const habilidades = [
       tecnologias: "React, TypeScript, Tailwind CSS, Node.js, Express, MongoDB",
       descricao:
         "Um planejador de viagem completo, abrangendo tanto o front-end quanto o back-end.",
-      link: "link-para-o-projeto", // Substitua pelo link real
+      link: "link-para-o-projeto", 
     },
     {
       nome: "Countries API",
