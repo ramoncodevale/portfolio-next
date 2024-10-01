@@ -28,7 +28,7 @@ const Projects = () => {
                                             alt={`Imagem do projeto ${projeto.nome}`}
                                             width={500}
                                             height={500}
-                                            className="rounded-xl"
+                                            className="rounded-xl max-h-48"
                                         />
                                     </div>
                                 )}
