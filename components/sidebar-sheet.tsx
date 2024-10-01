@@ -20,7 +20,7 @@ const SidebarSheet = ({ size }: SidebarSheetProps) => {
                     <Link href="/skills" className="text-lg border-b border-text-primary pb-1">
                         Habilidades
                     </Link>
-                    <Link href="/projetos" className="text-lg border-b border-text-primary pb-1">
+                    <Link href="/projects" className="text-lg border-b border-text-primary pb-1">
                         Projetos
                     </Link>
                     <Link href="/certificados" className="text-lg border-b border-text-primary pb-1">

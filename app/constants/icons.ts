@@ -1,4 +1,3 @@
-// icons.js
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaGitAlt, FaGithub } from "react-icons/fa";
 import { SiTypescript, SiNextdotjs, } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
