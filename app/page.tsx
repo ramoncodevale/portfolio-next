@@ -46,7 +46,7 @@ const Home = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <Button className="w-full rounded-xl font-bold text-sm p-5 hover:bg-secondary transition-colors">
+                <Button className="w-full bg-secondary rounded-xl font-bold text-sm p-5 hover:bg-primary transition-colors">
                   Visualizar CV
                 </Button>
               </Link>
@@ -56,7 +56,7 @@ const Home = () => {
                 rel="noopener noreferrer"
               >
                 <Button
-                  className="w-full bg-primary rounded-xl font-bold text-sm p-5 hover:bg-secondary transition-colors"
+                  className="w-full bg-secondary rounded-xl font-bold text-sm p-5 hover:bg-primary transition-colors"
                 >
                   <div className="flex items-center gap-2">
                     GitHub
