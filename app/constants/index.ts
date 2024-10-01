@@ -2,17 +2,25 @@ import Fsw from '../../public/fsw-barber.png';
 import Planner from '../../public/plann.er-projeto.png'
 import Countries from '../../public/countries-api.png'
 
-export const habilidades = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "Tailwind CSS",
-  "React",
-  "Next.js",
-  "Git",
-  "GitHub",
+export const habilidades = {
+  linguagens: ["HTML", "CSS", "JavaScript", "TypeScript"],
+  frameworks: ["React", "Next.js", "Tailwind CSS"],
+  ferramentas: ["Git", "GitHub"],
+};
+
+export const categorias = [
+  { nome: "HTML", nivel: "Avançado" },
+  { nome: "CSS", nivel: "Avançado" },
+  { nome: "JavaScript", nivel: "Intermediário" },
+  { nome: "TypeScript", nivel: "Intermediário" },
+  { nome: "Tailwind CSS", nivel: "Intermediário" },
+  { nome: "React", nivel: "Intermediário" },
+  { nome: "Next.js", nivel: "Básico" },
+  { nome: "Git", nivel: "Avançado" },
+  { nome: "GitHub", nivel: "Intermediário" },
 ];
+
+
 
 export const images = {
   Fsw,
