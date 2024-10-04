@@ -22,7 +22,7 @@ const Skills = () => {
                   <CardContent className="flex flex-col items-center mt-5 rounded-lg shadow-xl">
                     {Icon && <Icon className="w-20 h-20 text-primary" />}
                     <CardDescription className="font-bold mt-5">{habilidade}</CardDescription>
-                    <Badge className="text-sm bg-secondary px-3 py-1 rounded-xl  font-semibold mt-2">{nivel}</Badge>
+                    <Badge className="text-sm  px-3 py-1 rounded-xl  font-semibold mt-2">{nivel}</Badge>
                   </CardContent>
                 </Card>
               );
