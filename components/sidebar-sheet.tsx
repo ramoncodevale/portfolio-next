@@ -31,7 +31,7 @@ const SidebarSheet = ({ size }: SidebarSheetProps) => {
                         Projetos
                     </Link>
 
-                    <Link href="/certificados" className="text-lg border-b border-text-primary pb-1">
+                    <Link href="/certificates" className="text-lg border-b border-text-primary pb-1">
                         Certificados
                     </Link>
 

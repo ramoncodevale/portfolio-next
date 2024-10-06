@@ -8,7 +8,7 @@ const Skills = () => {
     <section className="max-w-4xl mx-auto mt-14 p-4">
       {Object.entries(habilidades).map(([categoriaKey, habilidades]) => (
         <div className="mt-5" key={categoriaKey}>
-          <h3 className="text-2xl font-semibold mb-4">{categoriaKey}</h3>
+          <h2 className="text-2xl font-semibold mb-4">Habilidades</h2>
           <div className="grid grid-cols-2 gap-6 text-lg">
             {habilidades.map((habilidade, index) => {
               const habilidadeCategoria = categorias.find(

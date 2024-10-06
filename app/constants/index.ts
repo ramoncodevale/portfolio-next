@@ -59,9 +59,9 @@ export const projetos = [
 
 export const certificacoes = [
   {
-    nome:  "Desenvolvimento Web Full Stack – Digital House (2022)",
+    nome: "NLW Pocket: JavaScript – Full-Stack Intermediário, Rocketseat (2024)",
+    pdf: "/certificados/certificate-fullstack.pdf", 
   },
- 
 ];
 
 // "Desenvolvimento Web Full Stack – Digital House (2022)",
