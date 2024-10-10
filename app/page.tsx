@@ -42,7 +42,7 @@ const Home = () => {
 
             <div className="flex items-center gap-3 mt-7">
               <Link
-                href="/CV-RAMON-VALENTIM-DA-SILVA-FRONT-END.pdf"
+                href="/CV-RAMON-VALENTIM-FRONT-END.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
