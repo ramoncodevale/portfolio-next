@@ -4,11 +4,8 @@ import { ModeToggle } from './mode-toggle';
 import { Button } from './ui/button';
 import { MenuIcon } from 'lucide-react';
 
-interface SidebarSheetProps {
-    size: number
-}
 
-const SidebarSheet = ({ size }: SidebarSheetProps) => {
+const SidebarSheet = () => {
     return (
         <Sheet>
             <SheetTrigger asChild>

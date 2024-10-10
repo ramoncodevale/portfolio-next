@@ -1,8 +1,8 @@
 import { Card, CardContent, CardDescription, CardTitle } from "@/components/ui/card";
-import { projetos } from "../constants";
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
+import { projetos } from "../constants/projetos";
 
 const Projects = () => {
     return (

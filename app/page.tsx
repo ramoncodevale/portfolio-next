@@ -2,12 +2,10 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { Card, CardContent } from "@/components/ui/card";
-import Header from "@/components/header";
 
 const Home = () => {
   return (
     <div>
-      <Header />
       <section className="max-w-4xl mx-auto mt-8 p-4">
         <Card>
           <CardContent>
