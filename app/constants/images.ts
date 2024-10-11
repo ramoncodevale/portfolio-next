@@ -1,8 +1,8 @@
 import Fsw from '../../public/fsw-barber.png';
 import Planner from '../../public/plann.er-projeto.png'
 import Countries from '../../public/countries-api.png'
-import CertificadoFullStack from '../../public/certificado-fullstack.png';
 
+const CertificadoFullStack = '/certificado-fullstack.pdf'
 
 export const images = {
     Fsw,
