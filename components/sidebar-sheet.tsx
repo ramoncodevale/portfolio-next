@@ -15,7 +15,7 @@ const SidebarSheet = () => {
             </SheetTrigger>
 
             <SheetContent side="right" className="w-[250px]  lg:w-[300px] p-4">
-                <div className="flex flex-col space-y-3 mt-5">
+                <div className="flex flex-col items-center mt-7">
                     <Link href="/" className="text-lg border-b border-text-primary pb-1">
                         Início
                     </Link>
@@ -36,7 +36,7 @@ const SidebarSheet = () => {
                         Contatos
                     </Link>
 
-                    <div className="mt-5">
+                    <div className="mt-7">
                         <ModeToggle  />
                     </div>
                 </div>
