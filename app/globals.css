@@ -4,25 +4,25 @@
 
 @layer base {
   :root {
-    --background: 0 0% 95%;
-    --foreground: 0 0% 20%;
-    --card: 0 0% 100%;
-    --card-foreground: 20 14.3% 4.1%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 20 14.3% 4.1%;
-    --primary: 30 80% 50%;
-    --primary-foreground: 60 10% 95%;
-    --secondary: 50 20% 50%;
-    --secondary-foreground: 10 100% 100%;
-    --muted: 60 4.8% 90%;
-    --muted-foreground: 25 5.3% 30%;
-    --accent: 60 5% 70%;
-    --accent-foreground: 20 10% 95%;
-    --destructive: 0 80% 60%;
-    --destructive-foreground: 60 10% 95%;
-    --border: 20 10% 80%;
-    --input: 20 10% 80%;
-    --ring: 24.6 95% 60%;
+    --background: 0 0% 85%; /* Diminuído de 95% para 85% */
+    --foreground: 0 0% 15%; /* Diminuído de 20% para 15% */
+    --card: 0 0% 90%; /* Diminuído de 100% para 90% */
+    --card-foreground: 20 14.3% 10%; /* Diminuído de 4.1% para 10% */
+    --popover: 0 0% 90%; /* Diminuído de 100% para 90% */
+    --popover-foreground: 20 14.3% 10%; /* Diminuído de 4.1% para 10% */
+    --primary: 30 80% 40%; /* Diminuído de 50% para 40% */
+    --primary-foreground: 60 10% 85%; /* Diminuído de 95% para 85% */
+    --secondary: 50 20% 40%; /* Diminuído de 50% para 40% */
+    --secondary-foreground: 10 100% 90%; /* Diminuído de 100% para 90% */
+    --muted: 60 4.8% 80%; /* Diminuído de 90% para 80% */
+    --muted-foreground: 25 5.3% 25%; /* Diminuído de 30% para 25% */
+    --accent: 60 5% 60%; /* Diminuído de 70% para 60% */
+    --accent-foreground: 20 10% 85%; /* Diminuído de 95% para 85% */
+    --destructive: 0 80% 50%; /* Diminuído de 60% para 50% */
+    --destructive-foreground: 60 10% 85%; /* Diminuído de 95% para 85% */
+    --border: 20 10% 70%; /* Diminuído de 80% para 70% */
+    --input: 20 10% 70%; /* Diminuído de 80% para 70% */
+    --ring: 24.6 95% 50%; /* Diminuído de 60% para 50% */
     --radius: 1rem;
     --chart-1: 12 76% 61%;
     --chart-2: 173 58% 39%;

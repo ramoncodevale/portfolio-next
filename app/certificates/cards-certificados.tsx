@@ -6,7 +6,7 @@ const CardsCertificados = () => {
   return (
     <div>
       {certificacoes.map((certificado) => (
-        <Card key={certificado.id} id={certificado.id}>
+        <Card key={certificado.id}>
           <CardContent>
             <CardDescription className="mt-5">
               {certificado.nome}
@@ -14,7 +14,7 @@ const CardsCertificados = () => {
             <div className="flex flex-col items-center mt-4">
               <Image
                 alt={`imagem do certificado ${certificado.nome}`}
-                src={certificado.image}
+                src={certificado.img}
                 width={500}
                 height={300}
                 className="object-cover"
