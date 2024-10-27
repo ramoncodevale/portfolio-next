@@ -28,9 +28,6 @@ const SidebarSheet = () => {
                         Projetos
                     </Link>
 
-                    <Link href="/certificates" className="text-lg border-b border-text-primary pb-1">
-                        Certificados
-                    </Link>
 
                     <Link href="/contatos" className="text-lg border-b border-text-primary pb-1">
                         Contatos
